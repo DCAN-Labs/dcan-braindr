@@ -11,7 +11,7 @@ branches:
 notifications:
   email: false
 before_script:
-  - npm install
+  - yarn install --ignore-engines
 script:
   - npm run build
 after_script:
